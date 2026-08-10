@@ -1,1 +1,15 @@
 /* var.css 시작 */
+:root {
+    --border-color: rgba(255, 255, 255, 0.3);
+    --color-txt: #fff;
+}
+
+
+
+/* 반복 클래스 */
+.flex-row-between-center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

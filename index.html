@@ -22,8 +22,8 @@
 <body>
     <!-- 고정 헤더 위치 -->
     <header>
-        <div class="menu_wrap drak">
-            <div class="main_menu">
+        <div class="menu_wrap drak flex-row-between-center">
+            <div class="main_menu flex-row-between-center">
                 <a href="#intro">Intro</a>
                 <a href="#">Profile</a>
                 <a href="#">Contents</a>
@@ -34,15 +34,21 @@
         </div>
     </header>
     <!-- main swiper 시작하는 곳 -->
-    <div class="swiper">
-        <div class="siwper-wrapper">
-            <div class="swiper-slide main1" id="intro"> <!-- bg: 들어가는 곳 -->
-                <p class="intro_title"><img src="#" alt=""></p>
-                <div class="intro_bottom">
+    <div class="swiper intro_page">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page1" id="intro"> <!-- bg: 들어가는 곳 -->
+                <p class="intro_title"><img src="./images/intro_txt.svg" alt=""></p>
+                <div class="intro_bottom flex-row-between-center">
                     <P>Web Designer</P>
                     <P>UI/UX Designer</P>
                 </div>
-            </div><!-- e:swiper-slide main1 종료 -->
+            </div><!-- e:swiper-slide page1 종료 -->
+            <div class="swiper-slide page2" id="profile"> <!-- bg: 들어가는 곳 -->
+                <div class="contanier">
+                    <div class="left"></div>
+                    <div class="right"></div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
