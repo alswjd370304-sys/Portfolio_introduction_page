@@ -2,13 +2,13 @@
 header {
     width: 1920px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 8px 120px;
 }
 header .menu_wrap {
     background-color: aqua;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    padding: 8px 120px; 
 }
 header .menu_wrap .main_menu {}
 header .menu_wrap .main_menu a {
