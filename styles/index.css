@@ -15,6 +15,7 @@ header .menu_wrap .main_menu a {
     font-weight: 500;
     display: block;
     line-height: 60px;
+    white-space: nowrap;
 }
 header .menu_wrap .years {
     font-family: 'Hamlet','Min Sans';
@@ -39,7 +40,10 @@ header .menu_wrap .years {
     justify-content: space-between;
     padding: 277px 0 100px 0;
 }
-.intro_page .swiper-wrapper .page1 .intro_title {}
+.intro_page .swiper-wrapper .page1 .intro_title {
+    width: 1680px;
+    align-self: center;
+}
 .intro_page .swiper-wrapper .page1 .intro_title img {width: 100%;}
 .intro_page .swiper-wrapper .page1 .intro_bottom * {
     color: var(--color-txt);
