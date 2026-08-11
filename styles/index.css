@@ -31,7 +31,7 @@ header .menu_wrap .years {
 .intro_page .swiper-wrapper .swiper-slide {}
 .intro_page .swiper-wrapper .page1 {
     width: 100%;
-    height: 900px;
+    height: 100%;
     background-size: cover;
     background-image: url(../images/intro_bg.jpg);
     background-position: center;
