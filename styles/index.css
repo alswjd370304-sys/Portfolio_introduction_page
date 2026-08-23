@@ -7,6 +7,7 @@ header {
 }
 header .menu_wrap {
     padding: 8px 120px; 
+    white-space: nowrap;
 }
 header .menu_wrap * {color: var(--color-txt);}
 header .menu_wrap .main_menu {gap: 30px;}
@@ -30,13 +31,19 @@ header .menu_wrap .years {
 .intro_page .swiper-wrapper .swiper-slide {}
 .intro_page .swiper-wrapper .page1 {
     width: 100%;
-    height: 900px;
-    background-size: cover;
-    background-image: url(../images/intro_bg.jpg);
-    background-position: center;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+}
+.intro_page .swiper-wrapper .page1::before {
+    content: ''; display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/intro_bg.jpg);
+    transform: scale(120%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     padding: 277px 0 100px 0;
 }
 .intro_page .swiper-wrapper .page1 .intro_title {}
@@ -45,5 +52,11 @@ header .menu_wrap .years {
     color: var(--color-txt);
     padding: 0 120px;
 }
-.intro_page .swiper-wrapper .page1 .intro_bottom {}
-.intro_page .swiper-wrapper .page1 .intro_bottom p {}
+.intro_page .swiper-wrapper .page1 .intro_bottom {
+    position: relative;
+    z-index: 1;
+}
+.intro_page .swiper-wrapper .page1 .intro_bottom p {
+    position: relative;
+    z-index: 1;
+}
