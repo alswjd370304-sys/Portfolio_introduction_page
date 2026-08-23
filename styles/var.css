@@ -13,3 +13,16 @@
     justify-content: space-between;
     align-items: center;
 }
+.flex-row-center-center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-cloumn-center-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
