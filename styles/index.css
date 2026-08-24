@@ -9,6 +9,11 @@ header .menu_wrap {
     padding: 8px 120px; 
 }
 header .menu_wrap * {color: var(--color-txt);}
+/* 헤더가 어두운 색으로 변할 때 */
+header.black .menu_wrap * {color:rgba(85, 85, 85, 0.7)}
+header.black {border-bottom: 1px solid rgba(85, 85, 85, 0.3);}
+/* 헤더 색 변경 종료 */
+
 header .menu_wrap .main_menu {gap: 30px;}
 header .menu_wrap .main_menu a {
     font-family: 'Hamlet','MinSans';
