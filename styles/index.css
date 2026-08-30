@@ -210,3 +210,25 @@ header .menu_wrap .years {
 .intro_page .swiper-wrapper .page3 img {}
 .intro_page .swiper-wrapper .page3 .contents_txt {}
 .intro_page .swiper-wrapper .page3 .chart {}
+/* ----------------------------------------------4행 */
+.intro_page .swiper-wrapper .page4 {}
+.intro_page .swiper-wrapper .page4 .container_wrap {}
+.intro_page .swiper-wrapper .page4 .container_wrap .mockup_img {}
+.intro_page .swiper-wrapper .page4 .container_wrap .mockup_img img {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_title {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_title p {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_title h2 {}
+
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_overview {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_overview h2 {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_overview p {}
+
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents .status {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents .status .sub_title {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents .status p {}
+
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a {}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a img {}
