@@ -43,7 +43,7 @@ header .menu_wrap .years {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    padding: 277px 0 100px 0;
+    padding: 300px 0 100px 0;
 }
 .intro_page .swiper-wrapper .page1 .intro_title {
     width: 1680px;
@@ -74,12 +74,138 @@ header .menu_wrap .years {
 .intro_page .swiper-wrapper .page1 .scroll .scroll_down img {}
 
 /* ----------------------------------------------2행 */
+/* 공통영역 */
+.intro_page .swiper-wrapper .page2 {
+    padding: 100px 120px;
+    background-image: url(../images/background_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 150px;
+}
+.intro_page .swiper-wrapper .page2 .contanier {width: 1680px;}
+/* 왼쪽 섹션 */
+.intro_page .swiper-wrapper .page2 .contanier .left {width: 659px;padding: 70px 0;}
+.intro_page .swiper-wrapper .page2 .contanier .left .title_introduction {margin-bottom: 73px;}
+.intro_page .swiper-wrapper .page2 .contanier .left .title_introduction * {color: #444;}
+.intro_page .swiper-wrapper .page2 .contanier .left .title_introduction .left_title {
+    margin-bottom: 15px;
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 600;
+}
+.intro_page .swiper-wrapper .page2 .contanier .left .title_introduction p {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.intro_page .swiper-wrapper .page2 .contanier .left .proflie {}
+.intro_page .swiper-wrapper .page2 .contanier .left .proflie img {}
+/* 오른쪽 섹션 */
+.intro_page .swiper-wrapper .page2 .contanier .right {width: 972px; height: 679px; padding: 70px 0;}
+/* 오른쪽 위 섹션 */
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g {margin-bottom: 60px; height: 379px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g {height: 100%; margin-right: 156px; }
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .profile {margin-bottom: 117px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .profile h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .profile .txt {gap: 8px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .profile .txt p {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt {gap: 8px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt .date_contents {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt .date_contents .date {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1rem;
+    font-weight: 300;
+    margin-right: 8px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt .date_contents .contents {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g {height: 100%;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy {margin-bottom: 170px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt {gap: 8px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt .date_contents {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt .date_contents .date {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1rem;
+    font-weight: 300;
+    margin-right: 8px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt .date_contents .contents {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt {gap: 8px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt .date_contents {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt .date_contents .date {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1rem;
+    font-weight: 300;
+    margin-right: 8px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt .date_contents .contents {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+/* 오른쪽 아래 스킬섹션 */
+.intro_page .swiper-wrapper .page2 .contanier .right .skill_skilimg_g {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    align-items: start;
+    align-self: start;
+    margin-left: 115px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .skill_skilimg_g h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.intro_page .swiper-wrapper .page2 .contanier .right .skill_skilimg_g h2 .skill_list {}
+.intro_page .swiper-wrapper .page2 .contanier .right .skill_skilimg_g .skill_list img {width: 100%;}
+
 /* ----------------------------------------------3행 */
 .intro_page .swiper-wrapper .page3 {
     background-size: cover;
     background-image: url(../images/intro_bg.jpg);
     background-position: center;
     gap: 105px;
+    padding: 150px 0;
 }
 .intro_page .swiper-wrapper .page3 img {}
 .intro_page .swiper-wrapper .page3 .contents_txt {}

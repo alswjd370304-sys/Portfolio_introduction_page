@@ -19,10 +19,22 @@
     justify-content: center;
     align-items: center;
 }
+.flex-row-start-center {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+}
 .flex-cloumn-center-center {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+}
+.flex-cloumn-center-start {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items:start;
 }
 
