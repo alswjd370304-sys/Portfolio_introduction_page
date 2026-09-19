@@ -62,16 +62,25 @@ header .menu_wrap .years {
 }
 /* 스크롤 다운 디자인 */
 .intro_page .swiper-wrapper .page1 .scroll {
-    position: absolute; left: 50%; bottom: 89px;
-    transform: translateX(-50px);
+    position: absolute; bottom: 89px; margin: 0 auto;
+    transform: translateY(50px);
 }
 .intro_page .swiper-wrapper .page1 .scroll p {
     font-family:'MinSans','Hamlet';
     font-size: 1.25rem;
     color: var(--color-txt);
+    margin-bottom: 12px;
 }
-.intro_page .swiper-wrapper .page1 .scroll .scroll_down {}
+.intro_page .swiper-wrapper .page1 .scroll .scroll_down {
+    animation: scroll_down 1s linear infinite alternate;
+}
 .intro_page .swiper-wrapper .page1 .scroll .scroll_down img {}
+
+/* 애니메이션 */
+@keyframes scroll_down {
+    0% {transform:translateY(0)}
+    100% {transform:translateY(-10px)}
+}
 
 /* ----------------------------------------------2행 */
 /* 공통영역 */
@@ -85,7 +94,7 @@ header .menu_wrap .years {
 }
 .intro_page .swiper-wrapper .page2 .contanier {width: 1680px;}
 /* 왼쪽 섹션 */
-.intro_page .swiper-wrapper .page2 .contanier .left {width: 659px;padding: 70px 0;}
+.intro_page .swiper-wrapper .page2 .contanier .left {width: 659px;padding: 70px 0; position: relative;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction {margin-bottom: 50px;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction * {color: #444;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction .left_title {
@@ -102,6 +111,8 @@ header .menu_wrap .years {
 }
 .intro_page .swiper-wrapper .page2 .contanier .left .proflie {}
 .intro_page .swiper-wrapper .page2 .contanier .left .proflie img {}
+.intro_page .swiper-wrapper .page2 .contanier .left .kakao {position: absolute; left:42%; bottom:11%;}
+.intro_page .swiper-wrapper .page2 .contanier .left .kakao img {}
 /* 오른쪽 섹션 */
 .intro_page .swiper-wrapper .page2 .contanier .right {width: 972px; height: 679px; padding: 70px 0;}
 /* 오른쪽 위 섹션 */
