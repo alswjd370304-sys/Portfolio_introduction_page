@@ -86,7 +86,7 @@ header .menu_wrap .years {
 .intro_page .swiper-wrapper .page2 .contanier {width: 1680px;}
 /* 왼쪽 섹션 */
 .intro_page .swiper-wrapper .page2 .contanier .left {width: 659px;padding: 70px 0;}
-.intro_page .swiper-wrapper .page2 .contanier .left .title_introduction {margin-bottom: 73px;}
+.intro_page .swiper-wrapper .page2 .contanier .left .title_introduction {margin-bottom: 50px;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction * {color: #444;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction .left_title {
     margin-bottom: 15px;
@@ -218,10 +218,13 @@ header .menu_wrap .years {
     background-position: center;
 }
 .intro_page .swiper-wrapper .page4 .container_wrap {width: 1680px;}
-.intro_page .swiper-wrapper .page4 .container_wrap .mockup_img {margin-right: 100px;}
+.intro_page .swiper-wrapper .page4 .container_wrap .mockup_img {
+    width: 935px; height: 522px;  margin-right: 100px;
+    transform: translate(-100px, -60px);
+}
 .intro_page .swiper-wrapper .page4 .container_wrap .mockup_img img {}
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap {}
-.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_title {margin-bottom: 80px;}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_title {margin-bottom: 54px;}
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_title p {
     font-family:'MinSans','Hamlet'; 
     font-size: 1.375em;
@@ -235,7 +238,7 @@ header .menu_wrap .years {
     color: #444;
 }
 
-.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_overview {margin-bottom: 80px;}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_overview {margin-bottom: 54px;}
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_overview h2 {
     font-family: 'Hamlet','MinSans';
     font-size: 1.563rem;
@@ -251,7 +254,7 @@ header .menu_wrap .years {
     line-height: 1.7;
 }
 
-.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents {gap: 18px; margin-bottom: 79px;}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents {gap: 18px; margin-bottom: 61px;}
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents .status {
     display: flex;
     flex-flow: row nowrap;
@@ -274,7 +277,14 @@ header .menu_wrap .years {
     font-family:'MinSans','Hamlet'; 
     color: #000;
     font-weight: 300;
+    border-bottom: 1px solid #222;
+    transition: 0.3s ease-out;
 }
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .project_contents .status a:hover {
+    border-color: rgba(34,34,34,0.2);
+    color:rgba(34,34,34,0.7);
+}
+
 
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn {gap: 30px;}
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a {
@@ -293,5 +303,212 @@ header .menu_wrap .years {
     font-size: 1rem;
     font-weight: 300;
     color: #222;
+    transition: 0.3s ease-out;
 } 
+
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a:hover {
+    color:rgba(34,34,34,0.5)
+}
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a img {display: block; margin-right: 8px;}
+
+/* ----------------------------------------------5행 */
+
+.intro_page .swiper-wrapper .page5 {
+    padding: 180px 120px 0;
+    background-image: url(../images/background_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.intro_page .swiper-wrapper .page5 .container_wrap {width: 1680px;}
+.intro_page .swiper-wrapper .page5 .container_wrap .mockup_img {
+    width: 935px; height: 522px;  margin-right: 100px;
+    transform: translate(-100px, -60px);
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .mockup_img img {}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap {}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_title {margin-bottom: 54px;}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_title p {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.375em;
+    color: #8D8888;
+    margin-bottom: 10px;
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_title h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_overview {margin-bottom: 54px;}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_overview h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 8px;
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_overview p {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125em;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_contents {gap: 18px; margin-bottom: 61px;}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_contents .status {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_contents .status .sub_title {
+    width: 120px;
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #000;
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_contents .status p {
+    font-family:'MinSans','Hamlet'; 
+    color: #000;
+    font-weight: 300;
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_contents .status a {
+    font-family:'MinSans','Hamlet'; 
+    color: #000;
+    font-weight: 300;
+    border-bottom: 1px solid #222;
+    transition: 0.3s ease-out;
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .project_contents .status a:hover {
+    border-color: rgba(34,34,34,0.2);
+    color:rgba(34,34,34,0.7);
+}
+
+
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .now_btn {gap: 30px;}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .now_btn a {
+    display: block;     
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+
+    padding: 18px 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid rgba(85, 85, 85, 0.5);
+
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222;
+    transition: 0.3s ease-out;
+} 
+
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .now_btn a:hover {
+    color:rgba(34,34,34,0.5)
+}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .now_btn a img {display: block; margin-right: 8px;}
+/* ----------------------------------------------6행 */
+.intro_page .swiper-wrapper .page6 {
+    padding: 180px 120px 0;
+    background-image: url(../images/background_bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.intro_page .swiper-wrapper .page6 .container_wrap {width: 1680px;}
+.intro_page .swiper-wrapper .page6 .container_wrap .mockup_img {
+    width: 935px; height: 522px;  margin-right: 100px;
+    transform: translate(-100px, -60px);
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .mockup_img img {}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap {}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_title {margin-bottom: 54px;}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_title p {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.375em;
+    color: #8D8888;
+    margin-bottom: 10px;
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_title h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #444;
+}
+
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_overview {margin-bottom: 54px;}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_overview h2 {
+    font-family: 'Hamlet','MinSans';
+    font-size: 1.563rem;
+    font-weight: 700;
+    color: #444;
+    margin-bottom: 8px;
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_overview p {
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125em;
+    color: #000;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_contents {gap: 18px; margin-bottom: 61px;}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_contents .status {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_contents .status .sub_title {
+    width: 120px;
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1.125em;
+    font-weight: 400;
+    color: #000;
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_contents .status p {
+    font-family:'MinSans','Hamlet'; 
+    color: #000;
+    font-weight: 300;
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_contents .status a {
+    font-family:'MinSans','Hamlet'; 
+    color: #000;
+    font-weight: 300;
+    border-bottom: 1px solid #222;
+    transition: 0.3s ease-out;
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .project_contents .status a:hover {
+    border-color: rgba(34,34,34,0.2);
+    color:rgba(34,34,34,0.7);
+}
+
+
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .now_btn {gap: 30px;}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .now_btn a {
+    display: block;     
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: center;
+
+    padding: 18px 30px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid rgba(85, 85, 85, 0.5);
+
+    font-family:'MinSans','Hamlet'; 
+    font-size: 1rem;
+    font-weight: 300;
+    color: #222;
+    transition: 0.3s ease-out;
+} 
+
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .now_btn a:hover {
+    color:rgba(34,34,34,0.5)
+}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .now_btn a img {display: block; margin-right: 8px;}
