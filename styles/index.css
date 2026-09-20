@@ -37,8 +37,9 @@ header .menu_wrap .years {
 /* ----------------------------------------------1행 */
 .intro_page .swiper-wrapper .page1 {
     width: 100%;
-    background-size: cover;
+    background-size: 108%;
     background-image: url(../images/intro_bg.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     display: flex;
     flex-flow: column nowrap;
@@ -212,8 +213,9 @@ header .menu_wrap .years {
 
 /* ----------------------------------------------3행 */
 .intro_page .swiper-wrapper .page3 {
-    background-size: cover;
+    background-size: 108%;
     background-image: url(../images/intro_bg.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     gap: 105px;
     padding: 150px 0;
