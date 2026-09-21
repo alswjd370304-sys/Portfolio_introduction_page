@@ -318,6 +318,7 @@ header .menu_wrap .years {
     color: #222;
     transition: 0.3s ease-out;
 } 
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a:nth-child(1) {display: none;}
 
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a:hover {
     color:rgba(34,34,34,0.5)
@@ -420,6 +421,8 @@ header .menu_wrap .years {
     color: #222;
     transition: 0.3s ease-out;
 } 
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .now_btn a:nth-child(1) {display: none;}
+.intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .now_btn a:nth-child(3) {display: none;}
 
 .intro_page .swiper-wrapper .page5 .container_wrap .project_wrap .now_btn a:hover {
     color:rgba(34,34,34,0.5)
@@ -520,6 +523,8 @@ header .menu_wrap .years {
     color: #222;
     transition: 0.3s ease-out;
 } 
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .now_btn a:nth-child(1) {display: none;}
+.intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .now_btn a:nth-child(3) {display: none;}
 
 .intro_page .swiper-wrapper .page6 .container_wrap .project_wrap .now_btn a:hover {
     color:rgba(34,34,34,0.5)
