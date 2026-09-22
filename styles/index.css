@@ -95,7 +95,7 @@ header .menu_wrap .years {
 }
 .intro_page .swiper-wrapper .page2 .contanier {width: 1680px;}
 /* 왼쪽 섹션 */
-.intro_page .swiper-wrapper .page2 .contanier .left {width: 659px;padding: 70px 0; position: relative;}
+.intro_page .swiper-wrapper .page2 .contanier .left {width: 659px; padding: 70px 0; position: relative;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction {margin-bottom: 50px;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction * {color: #444;}
 .intro_page .swiper-wrapper .page2 .contanier .left .title_introduction .left_title {
@@ -131,16 +131,17 @@ header .menu_wrap .years {
     font-family:'MinSans','Hamlet'; 
     font-size: 1.125rem;
     font-weight: 300;
+    margin-bottom: 4px;
 }
-.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education {margin-right: 8px;}
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education h2 {
     font-family: 'Hamlet','MinSans';
     font-size: 1.563rem;
     font-weight: 600;
     margin-bottom: 12px;
 }
-.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt {gap: 8px;}
-.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt .date_contents {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt {gap: 12px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt .date_contents {margin-right: 8px;}
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .proflie_education_g .education .txt .date_contents .date {
     font-family:'MinSans','Hamlet'; 
     font-size: 1rem;
@@ -153,7 +154,7 @@ header .menu_wrap .years {
     font-weight: 300;
 }
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g {height: 100%;}
-.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy {margin-bottom: 170px;}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy {margin-bottom: 180px;}
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy h2 {
     font-family: 'Hamlet','MinSans';
     font-size: 1.563rem;
@@ -161,7 +162,7 @@ header .menu_wrap .years {
     margin-bottom: 12px;
 }
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt {gap: 8px;}
-.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt .date_contents {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt .date_contents {margin-bottom: 4px;}
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .academy .txt .date_contents .date {
     font-family:'MinSans','Hamlet'; 
     font-size: 1rem;
@@ -181,7 +182,7 @@ header .menu_wrap .years {
     margin-bottom: 12px;
 }
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt {gap: 8px;}
-.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt .date_contents {}
+.intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt .date_contents {margin-bottom: 4px;}
 .intro_page .swiper-wrapper .page2 .contanier .right .right_top_g .academy_certificate_g .certificate .txt .date_contents .date {
     font-family:'MinSans','Hamlet'; 
     font-size: 1rem;
@@ -318,7 +319,7 @@ header .menu_wrap .years {
     color: #222;
     transition: 0.3s ease-out;
 } 
-.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a:nth-child(1) {display: none;}
+.intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a:nth-child(1) {}
 
 .intro_page .swiper-wrapper .page4 .container_wrap .project_wrap .now_btn a:hover {
     color:rgba(34,34,34,0.5)
