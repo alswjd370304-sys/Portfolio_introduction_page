@@ -43,4 +43,9 @@
     justify-content: space-between;
     align-items: flex-end;
 }
-
+.flex-row-start-start {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: start;
+    align-items: flex-start;
+}
