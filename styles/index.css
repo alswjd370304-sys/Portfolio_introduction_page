@@ -581,6 +581,7 @@ header .menu_wrap .years {
 .intro_page .swiper-wrapper .page7 .container_wrap .graphic_design_content_wrap .graphic_design_img {
     width: 60%;
     max-width: 1227px;
+    min-width: 600px;
     gap: 18px;
     padding-right: 120px;
     border-right: 1px solid rgba(85, 85, 85, 0.5);
