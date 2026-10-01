@@ -579,20 +579,19 @@ header .menu_wrap .years {
 .intro_page .swiper-wrapper .page7 .container_wrap .graphic_design_content_wrap {}
 /* 왼쪽영역 */
 .intro_page .swiper-wrapper .page7 .container_wrap .graphic_design_content_wrap .graphic_design_img {
-    width: 60%;
-    max-width: 1227px;
+    width: 70%;
+    max-width: 100%;
     min-width: 600px;
     gap: 18px;
     padding-right: 120px;
     border-right: 1px solid rgba(85, 85, 85, 0.5);
-    margin-right: 95px;
+    margin-right: 60px;
 }
 .intro_page .swiper-wrapper .page7 .container_wrap .graphic_design_content_wrap .graphic_design_img img {
-    width: calc((100% - 36px) / 3);
+    width: calc((100% - 6px) / 4);
     height: auto;
     display: block;
 }
-.intro_page .swiper-wrapper .page7 .container_wrap .graphic_design_content_wrap .graphic_design_img img:nth-child(4) {display: none;}
 
 /* 오른쪽 영역 */
 .intro_page .swiper-wrapper .page7 .container_wrap .graphic_design_content_wrap .contact {transform: translateX(60%);}
